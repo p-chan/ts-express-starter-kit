@@ -5,6 +5,7 @@
 ## Getting Started
 
 ```
+$ git clone git@github.com:p-chan/ts-express-starter-kit.git project-name
 $ cp .env.example .env
 $ npm i
 $ npm start
