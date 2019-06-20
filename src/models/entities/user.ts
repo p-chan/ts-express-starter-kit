@@ -12,7 +12,7 @@ import { IsEmail, MaxLength, MinLength } from 'class-validator'
 import bcrypt from 'bcrypt'
 
 @Entity('users')
-export class Users extends BaseEntity {
+export class User extends BaseEntity {
   @PrimaryGeneratedColumn({ name: 'id' })
   id!: number
 
