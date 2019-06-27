@@ -6,7 +6,7 @@ import bodyParser from 'body-parser'
 import helmet from 'helmet'
 import morgan from 'morgan'
 import { createConnection } from 'typeorm'
-import { notFoundHandler, errorHandler } from './middleware'
+import { notFoundHandler, errorHandler } from './middlewares'
 
 dotenv.config()
 
